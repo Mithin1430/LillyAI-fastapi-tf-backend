@@ -16,7 +16,7 @@ load_dotenv()
 HOST = os.getenv("HOST", "0.0.0.0")
 PORT = int(os.getenv("PORT", "8000"))
 DEBUG = os.getenv("DEBUG", "True").lower() == "true"
-MODEL_PATH = os.getenv("MODEL_PATH", "modals/AlphaNumeric/model.h5")
+MODEL_PATH = os.getenv("MODEL_PATH", "models/AlphaNumeric/model.h5")
 TRAINING_DATA_PATH = os.getenv("TRAINING_DATA_PATH", "Digits")
 ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "*").split(",")
 ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
