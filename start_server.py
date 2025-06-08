@@ -17,7 +17,7 @@ if __name__ == "__main__":
     HOST = os.getenv("HOST", "127.0.0.1")
     PORT = int(os.getenv("PORT", "8000"))
     DEBUG = os.getenv("DEBUG", "True").lower() == "true"
-    MODEL_PATH = os.getenv("MODEL_PATH", "modals/AlphaNumeric/model.h5")
+    MODEL_PATH = os.getenv("MODEL_PATH", "models/AlphaNumeric/model.h5")
     
     print("Starting LillyAI Digit Recognition API...")
     print(f"Working directory: {os.getcwd()}")
